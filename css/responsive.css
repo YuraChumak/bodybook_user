@@ -57,6 +57,14 @@
     .specialist .col-md-8{
         padding-right: 20px;
     }
+    .registr_form.one label + div{
+        left: -120px;
+        text-align: center;
+        width: auto;
+    }
+    .registr_form.one label{
+        left: -120px;
+    }
 }
 @media (max-width:700px){
     .banner{
@@ -76,6 +84,15 @@
     .doctors .col-md-3 .inner_wrapper:hover .hidden_block{
         display: none;
         opacity: 0;
+    }
+    .anketa .col-md-3{
+        float: none;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .anketa .col-md-5{
+        margin: 0 auto;
+        width: 395px;
     }
 }
 @media (max-width:650px){
@@ -98,6 +115,32 @@
     .article{
         background: 0;
     }
+    .registr_form.one{
+        width: 315px;
+    }
+    .registr_form.one label + div{
+        left: 10px;
+        width: 210px;
+    }
+    .registr_form.one input:last-of-type{
+        margin-top: 120px;
+    }
+    .registr_form.one label{
+        bottom: 120px;
+        left: -10px;
+    }
+    .two textarea{
+        width: 145px;
+    }
+    .three label + span{
+        display: none;
+    }
+    .three {
+        margin-left: -117px;
+    }
+    .registr_form.three input[type="button"]{
+        margin-left: 85px;
+    }
 }
 @media (max-width:500px){
     .doctors .col-md-3{
@@ -110,6 +153,24 @@
     }
     .search input:first-child{
         width: 85%;
+    }
+    .anketa .col-md-5{
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    .anketa select{
+        width: 125px;
+    }
+    .anketa .day,
+    .anketa .month,
+    .anketa .year{
+        margin-bottom: 0;
+    }
+    .registr_form.one{
+        width: 260px;
+    }
+    .registr_form.one input{
+        width: 100px;
     }
 }
 @media (max-width:400px){
@@ -132,5 +193,7 @@
     .registr_form input:last-of-type{
         width: auto;
     }
-
+    .two textarea{
+        width: 115px;
+    }
 }
